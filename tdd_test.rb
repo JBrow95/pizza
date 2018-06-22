@@ -10,4 +10,8 @@ class TestPizza < Minitest::Test
     def test_if_array_has_class()
     	assert_equal(Array, sizes().class)
     end
+
+    def test_if_array_has_data()
+    	assert_equal(Array, size()[2])
+    end
 end
