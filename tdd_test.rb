@@ -12,6 +12,8 @@ class TestPizza < Minitest::Test
     end
 
     def test_if_array_has_data()
-    	assert_equal(Array, size()[2])
+    	assert_equal("medium", sizes()[1])
     end
+
+   
 end
