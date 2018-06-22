@@ -1,3 +1,3 @@
 def sizes()
-#	["small", "medium", "large"]
+	["small", "medium", "large"]
 end
