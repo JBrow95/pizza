@@ -1,5 +1,5 @@
 
 def sizes()
-	{"small" => 4.99}
+	{"small" => 5.00}
 end
 
