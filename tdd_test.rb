@@ -11,7 +11,7 @@ class TestPizza < Minitest::Test
     	assert_equal(Hash, sizes().class)
     end
 
-    def test_if_Hash_has_data()
+    def test_if_Hash_has_data_and_size_is_equal_to_amount()
     	assert_equal(5.00, sizes()["small"])
     	assert_equal(7.00, sizes()["medium"])
     	assert_equal(10.00, sizes()["large"])
@@ -21,4 +21,7 @@ class TestPizza < Minitest::Test
     	assert_equal(Array, thin().class)
     end
 
+    def test_if_thin_has_elements()
+    	assert_equal("Cheese",thin()[1])
+    end
 end
