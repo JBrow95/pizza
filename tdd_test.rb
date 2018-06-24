@@ -12,7 +12,7 @@ class TestPizza < Minitest::Test
     end
 
     def test_if_Hash_has_data()
-    	assert_equal(4.99, sizes()["Small"])
+    	assert_equal(4.99, sizes()["small"])
     end
 
 end
