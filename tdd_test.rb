@@ -17,4 +17,8 @@ class TestPizza < Minitest::Test
     	assert_equal(10.00, sizes()["large"])
     end
 
+    def test_if_thin_function_has_array()
+    	assert_equal(Array, thin().class)
+    end
+
 end
