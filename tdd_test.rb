@@ -22,6 +22,6 @@ class TestPizza < Minitest::Test
     end
 
     def test_if_thin_has_elements()
-    	assert_equal("Cheese",thin()[1])
+    	assert_equal("Cheese",thin()[0])
     end
 end

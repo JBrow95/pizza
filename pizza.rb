@@ -4,5 +4,5 @@ def sizes()
 end
 
 def thin()
-	[]
+	["Cheese"]
 end
