@@ -4,5 +4,6 @@ def sizes()
 end
 
 def thin()
-	["Cheese"]
+	["cheese", "pepperoni", "meatlovers", "supreme"]
 end
+
