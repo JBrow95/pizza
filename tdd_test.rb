@@ -18,7 +18,7 @@ class TestPizza < Minitest::Test
     end
 
     def test_if_thin_function_has_array()
-    	assert_equal(Array, thin().class)
+    	assert_equal(Hash, thin().class)
     end
 
     def test_if_thin_has_elements()
