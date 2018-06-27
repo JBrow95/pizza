@@ -4,6 +4,10 @@ def sizes()
 end
 
 def thin()
-	["cheese", "pepperoni", "meatlovers", "supreme"]
+	{"cheese" => 1, "pepperoni" => 2, "meatlovers" => 3, "supreme" => 4}
+end
+
+def pan()
+	{"cheese" => 1, "pepperoni" => 2, "meatlovers" => 3, "supreme" => 4}
 end
 

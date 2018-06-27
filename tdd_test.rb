@@ -28,6 +28,10 @@ class TestPizza < Minitest::Test
         assert_equal("supreme",thin()[3])
     end
 
+    def test_if_pan_has_hash
+        assert_equal(Hash, pan().class)
+    end
+
     def test_if_pan_has_elements()
         assert_equal("cheese",pan()[0])
         assert_equal("pepperoni",pan()[1])
